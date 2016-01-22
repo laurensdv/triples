@@ -58,7 +58,7 @@ After that run the composer update command.
 
 The package needs a few extra datatables for its configuration, so go ahead and run the migration command!
 
-    $ php artisan migrate --package=tdt/triples
+    $ php artisan migrate --package=laurensdv/triples
 
 3) Notify core
 
