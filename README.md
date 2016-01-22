@@ -50,7 +50,7 @@ Include this repo:
 
 Edit your composer.json file, and add tdt/triples as a dependency:
 
-    "laurensdv/triples": "dev-master"
+    "tdt/triples": "dev-master-fork"
 
 After that run the composer update command.
 
@@ -58,7 +58,7 @@ After that run the composer update command.
 
 The package needs a few extra datatables for its configuration, so go ahead and run the migration command!
 
-    $ php artisan migrate --package=laurensdv/triples
+    $ php artisan migrate --package=tdt/triples
 
 3) Notify core
 
