@@ -50,7 +50,7 @@ Include this repo:
 
 Edit your composer.json file, and add tdt/triples as a dependency:
 
-    "tdt/triples": "dev-master"
+    "laurensdv/triples": "dev-master"
 
 After that run the composer update command.
 
