@@ -39,6 +39,15 @@ This package works with version 4.3 or higher ( if 4.3 is not available, try the
 
 1) Edit composer.json
 
+Include this repo:
+
+    "repositories": [
+        {   
+            "type": "vcs",
+            "url": "https://github.com/laurensdv/triples"
+        }
+    ],
+
 Edit your composer.json file, and add tdt/triples as a dependency:
 
     "tdt/triples": "dev-master"
